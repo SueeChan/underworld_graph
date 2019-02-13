@@ -9,7 +9,6 @@ total_year = 300 +1
 data = [[0.0] * total_year for i in range(num_env)]
 
 
-#data = [[i * j for j in range(year)] for i in range(num_env)]
 with open("thickness0.csv", mode = 'r')as file:
     reader = csv.DictReader(file)
     ct = 0
