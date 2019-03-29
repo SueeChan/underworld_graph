@@ -9,7 +9,7 @@ total_year = 300 +1
 data = [[0.0] * total_year for i in range(num_env)]
 
 file_name = ""
-with open('file_name') as infile, open(file_name + '_comma_delimited.csv', 'w') as outfile:
+with open(file_name) as infile, open(file_name + '_comma_delimited.csv', 'w') as outfile:
     for line in infile:
         outfile.write(" ".join(line.split()).replace(' ', ','))
         outfile.write(",") # trailing comma shouldn't matter
