@@ -8,9 +8,15 @@ num_env = 7
 total_year = 300 +1
 data = [[0.0] * total_year for i in range(num_env)]
 
+file_name = ""
+with open('file_name') as infile, open(file_name + '_comma_delimited.csv', 'w') as outfile:
+    for line in infile:
+        outfile.write(" ".join(line.split()).replace(' ', ','))
+        outfile.write(",") # trailing comma shouldn't matter
+
 
 #data = [[i * j for j in range(year)] for i in range(num_env)]
-with open("thickness0.csv", mode = 'r')as file:
+with open(file_name + '_comma_delimited.csv', mode = 'r')as file:
     reader = csv.DictReader(file)
     ct = 0
     for row in reader:
