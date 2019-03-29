@@ -9,6 +9,7 @@ total_year = 300 +1
 data = [[0.0] * total_year for i in range(num_env)]
 
 
+#data = [[i * j for j in range(year)] for i in range(num_env)]
 with open("thickness0.csv", mode = 'r')as file:
     reader = csv.DictReader(file)
     ct = 0
@@ -58,6 +59,7 @@ env6 = np.array(out[5])
 env7 = np.array(out[6])
 
 
+#plt.bar(y_pos, thickness)
 p1 = plt.bar(y_pos, env1, color='darkgreen')
 p2 = plt.bar(y_pos, env2, color='lawngreen', bottom=env1)
 p3 = plt.bar(y_pos, env3, color='red', bottom =env1+env2)
@@ -65,11 +67,12 @@ p4 = plt.bar(y_pos, env4, color='yellow', bottom =env1+env2+env3)
 p5 = plt.bar(y_pos, env5, color='DeepSkyBlue', bottom =env1+env2+env3+env4)
 p6 = plt.bar(y_pos, env6, color='blue', bottom =env1+env2+env3+env4+env5)
 p7 = plt.bar(y_pos, env7, color='navy', bottom =env1+env2+env3+env4+env5+env6)
-
+#plt.xticks(y_pos, year)
 
 plt.xticks(np.arange(0,60+2,2),list(np.arange(0,3.1,0.1)))
 
 
+#plt.yticks(np.arange(0, 81, 10))
 plt.ylabel('Thickness (meters)')
 plt.xlabel('Time (million year)')
 plt.title("Sedimentation through time along rift B - B'")
