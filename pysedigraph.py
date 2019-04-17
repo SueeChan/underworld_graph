@@ -12,7 +12,8 @@ last_timesteps = 300 #make sure it is divisible by (bar_interval/checkpoint_inte
 checkpoint_interval = 0.01 #in megayears
 bar_interval = 0.05 #megayears per bar
 num_env = 7
-file_name = "figuresue300.csv"  #csv file to read from
+path = ""
+file_name = path + "figuresue300.csv"  #csv file to read from
 x_axis_label = 'Time (million year)'
 y_axis_label = 'Thickness (meters)'
 title = "Sedimentation through time along rift B - B'"
@@ -157,4 +158,7 @@ plt.xlabel(x_axis_label)
 plt.title(title)
 plt.legend(tuple(env_bar_legend), legend, loc='upper center', title = 'Paleo-depth (meters)')
 
+fig = plt.gcf()
 plt.show()
+fig.set_size_inches(18.5, 10.5)
+fig.savefig(path+'sedigraph.png', dpi=100)
