@@ -5,7 +5,7 @@ Generating a histogram on the thickness of sediments from different depositional
 ### steps ###
 
 1. Create Badlands vtk stratigraphic mesh 
-  ** which give the information of thickness , layer ID , relative elevation and x-y-z coordinates of regularly spaced grid over each layer time interval 
+  * which give the information of thickness , layer ID , relative elevation and x-y-z coordinates of regularly spaced grid over each layer time interval 
   
 2. Visulise the pvd file on ParaView
 
