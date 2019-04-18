@@ -1,7 +1,7 @@
 # README #
 Generating a histogram on the thickness of sediments from different depositional environment over modelling time for UnderWorld model.
 
-![alt text](../Users/sue/github/sedigraph.png)
+![alt text](example_graph.png)
 
 ## Usage ##
 ### steps ###
