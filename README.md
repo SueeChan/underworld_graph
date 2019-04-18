@@ -13,7 +13,9 @@ Generating a histogram on the thickness of sediments from different depositional
 
 3. Slice the model's stratigraphic mesh layer at the area of interest
 
-4. Output the data of the slice as csv file using the tab "/File /Save Data" on ParaView
+4. Output the data of the slice in the last timestep
+ * Format: csv file 
+ * using the tab "/File /Save Data" on ParaView
 
 5. Follow the instruction of the TODO tag
 
