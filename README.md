@@ -9,11 +9,13 @@ Generating a histogram on the thickness of sediments from different depositional
   
 2. Visulise the pvd file on ParaView
 
-3. Output the data of the pvd file as csv file using the tab "/File /Save Data" on ParaView.
+3.Slice the model's stratigraphic mesh layer at the area of interest
 
-4. Follow the instruction of the TODO tag
+4. Output the data of the pvd file as csv file using the tab "/File /Save Data" on ParaView
 
-5. Compile the script
+5. Follow the instruction of the TODO tag
+
+6. Compile the script
 
 
 
