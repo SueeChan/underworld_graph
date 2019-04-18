@@ -1,5 +1,5 @@
 # README #
-Generating a histogram on the thickness of sediments from different depositional environment over modelling time in megayears for UnderWorld model.
+Generating a histogram on the thickness of sediments from different depositional environment over modelling time for UnderWorld model.
 
 ## Usage ##
 ### steps ###
