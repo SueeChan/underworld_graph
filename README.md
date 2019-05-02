@@ -1,6 +1,7 @@
 # README #
 Generating a histogram on the thickness of sediments from different depositional environment over modelling time for UnderWorld models.
 
+This script is written in the University of Sydney BGH group. 
 ![alt text](example_graph.png)
 
 ## Usage ##
