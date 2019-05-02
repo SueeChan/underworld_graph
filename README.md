@@ -17,7 +17,7 @@ Generating a histogram on the thickness of sediments from different depositional
  * Format: csv file 
  * using the tab "/File /Save Data" on ParaView
 
-5. Follow the instruction of the TODO tag
+5. Follow the instruction of the TODO tags
 
 6. Compile the script
 
